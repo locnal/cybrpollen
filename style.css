@@ -1,0 +1,127 @@
+/* General Body Styles */
+body {
+    background-color: #121212;  /* Dark background for a sleek look */
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+#site_header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4.5em;
+    color: #FF69B4; /* DeepPink */
+    text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.7);
+}
+
+h1 sub {
+    font-size: 1.4em;
+    color: #ff80ff;
+    text-shadow: 1px 1px 3px rgba(255, 105, 180, 0.6);
+}
+
+pre {
+    font-family: 'Courier New', monospace;
+    font-size: 1.5em;
+    color: #ff80ff;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-top: 20px;
+}
+
+/* Footer/Info text Styling */
+h5 {
+    font-size: 1.5em;
+    color: #FF69B4;
+    margin-top: 20px;
+}
+
+/* Navigation Menu Styling */
+nav {
+    margin-top: 40px;
+    font-size: 1.3em;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    text-decoration: none;
+    color: #FF69B4;
+    padding: 5px 20px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #ff80ff;
+    transform: scale(1.1);
+}
+
+nav span {
+    margin: 0 15px;
+}
+
+/* Intro Section Styling */
+p {
+    font-size: 1.4em;
+    color: #FF1493; /* HotPink */
+    font-style: italic;
+    margin-top: 30px;
+    text-shadow: 2px 2px 5px rgba(255, 20, 147, 0.7);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Keyframe animation for fading text */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Hover effects for main elements */
+h1:hover {
+    color: #ff80ff;
+    text-shadow: 3px 3px 8px rgba(255, 105, 180, 1);
+}
+
+h5:hover {
+    color: #ff1493;
+    text-shadow: 2px 2px 5px rgba(255, 20, 147, 0.8);
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h5 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    nav a {
+        font-size: 1em;
+        padding: 5px 15px;
+    }
+}
+

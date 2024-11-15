@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheis' Blog</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: hotpink;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        ::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 150px;
+            height: auto;
+            background: url('https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif') no-repeat center center;
+            background-size: contain;
+            animation: glitter 1s infinite linear;
+            pointer-events: none;
+            filter: hue-rotate(330deg) saturate(200%) brightness(1.5);
+        }
+
+        @keyframes glitter {
+            0% {
+                transform: translate(0, 0);
+            }
+            50% {
+                transform: translate(5px, 5px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-top: 50px;
+            color: hotpink;
+            text-shadow: 2px 2px 8px rgba(255, 105, 180, 0.8);
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        .blog-list {
+            margin-top: 30px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .blog-list li {
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .blog-list a {
+            color: hotpink;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .blog-list a:hover {
+            color: #FF80FF;
+            transform: scale(1.1);
+        }
+
+        .anime-img-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .anime-img-container img {
+            width: 200px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+
+        .content {
+            z-index: 1;
+        }
+
+        a {
+            color: hotpink;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #FF80FF;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>uhhhhrhurhhrhr</h1>
+        <p>No blogs atm soz.:</p>
+        <p>Maybe next time.</p>
+
+        <div>
+            <b><a href="index.html">Return home here pal.></a></b>
+        </div>
+    </div>
+
+</body>
+</html>
